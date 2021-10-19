@@ -12,4 +12,5 @@ int main()
 		num= num&(~((1<<i)|(1<<j))) | ((num&(1<<j))>>(j-i)) | ((num&(1<<i))<<(j-i));
 	}
 	printf("%d\n",num);
+	printf("edited version\n");
 }
